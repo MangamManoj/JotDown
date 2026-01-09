@@ -162,7 +162,7 @@ export default async function DashboardPage() {
             {entries.length === 0 && (
               <div className="mt-16 text-center animate-fade-in" style={{ animationDelay: '200ms' }}>
                 <p className="text-[var(--color-ink-light)] italic">
-                  "The journey of a thousand miles begins with a single step."
+                  &quot;The journey of a thousand miles begins with a single step.&quot;
                 </p>
                 <p className="text-[var(--color-ink-muted)] text-sm mt-2">
                   — Lao Tzu

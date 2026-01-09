@@ -43,7 +43,7 @@ export default async function Home() {
             href="/signup"
             className="px-8 py-3 bg-[var(--color-ink)] text-[var(--color-paper)] rounded-lg font-medium hover:opacity-90 transition-opacity"
           >
-            Start writing — it's free
+            Start writing — it&apos;s free
           </Link>
         </div>
 
@@ -111,8 +111,8 @@ export default async function Home() {
       <section className="px-6 py-24 border-t border-[var(--color-border-light)] bg-[var(--color-surface)]">
         <div className="max-w-2xl mx-auto text-center">
           <blockquote className="font-serif text-xl md:text-2xl text-[var(--color-ink)] italic leading-relaxed mb-4">
-            "The journal is a vehicle for my sense of self. It represents 
-            me as emotionally and spiritually independent."
+            &quot;The journal is a vehicle for my sense of self. It represents 
+            me as emotionally and spiritually independent.&quot;
           </blockquote>
           <cite className="text-sm text-[var(--color-ink-muted)] not-italic">
             — Susan Sontag

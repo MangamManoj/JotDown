@@ -54,7 +54,7 @@ export default function QuickEditor({ todayEntry, today, userId }: QuickEditorPr
           <div className="flex items-start justify-between mb-4">
             <div>
               <p className="text-xs text-[var(--color-ink-muted)] uppercase tracking-widest mb-1">
-                Today's Entry
+                Today&apos;s Entry
               </p>
               <p className="text-[var(--color-ink)] font-serif text-lg">
                 Continue writing...
@@ -64,7 +64,7 @@ export default function QuickEditor({ todayEntry, today, userId }: QuickEditorPr
           </div>
           {todayEntry.content_plain && (
             <p className="text-[var(--color-ink-light)] text-sm line-clamp-2 italic">
-              "{todayEntry.content_plain.slice(0, 150)}..."
+              &quot;{todayEntry.content_plain.slice(0, 150)}...&quot;
             </p>
           )}
         </a>

@@ -56,7 +56,7 @@ export default function ForgotPasswordPage() {
               Check your email
             </h1>
             <p className="text-[var(--color-ink-light)] mb-6">
-              We've sent a password reset link to<br />
+              We&apos;ve sent a password reset link to<br />
               <strong className="text-[var(--color-ink)]">{email}</strong>
             </p>
             
@@ -94,7 +94,7 @@ export default function ForgotPasswordPage() {
               Reset password
             </h1>
             <p className="text-[var(--color-ink-light)]">
-              We'll send you a link to reset it
+              We&apos;ll send you a link to reset it
             </p>
           </div>
 
